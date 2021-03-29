@@ -1,0 +1,10 @@
+//truncate string
+function truncateString(str, num) {
+  if (str.length > num) {
+    return str.slice(0, num) + "...";
+  } else {
+    return str;
+  }
+}
+
+truncateString("Bogdan", 3);
